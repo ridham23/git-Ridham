@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="ExtentReportListener.ExtentReportListener">
+
+        </listener>
+    </listeners>
+    <test verbose="10" preserve-order="true" name="SanitySuite">
+        <classes>
+            <class name="TestCases.LaunchToLoginTest">
+
+            </class>
+            <class name="TestCases.HomepageTest">
+            </class>
+
+
+        </classes>
+    </test>
+</suite>
